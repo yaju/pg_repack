@@ -10,7 +10,12 @@
 #ifndef PGUT_H
 #define PGUT_H
 
+#ifndef WIN32
 #include "c.h"
+#else
+#include "postgres_fe.h"
+#endif
+
 #include <assert.h>
 
 #ifndef WIN32

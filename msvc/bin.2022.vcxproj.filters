@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\bin\pgut\pgut-fe.c">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\pg_repack.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\pgut\pgut.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\bin\pgut\pgut-fe.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bin\pgut\pgut.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{8f08b200-d1b2-4b83-b3ce-fc5965d8849d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{98013dd6-8d1c-47b8-9757-cbc44d8882e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

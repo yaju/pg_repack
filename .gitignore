@@ -8,3 +8,7 @@ regress/regression.out
 regress/results/
 dist/*.zip
 lib/exports.list
+msvc/.vs/
+msvc/bin/x64/
+msvc/lib/x64/
+msvc/x64/

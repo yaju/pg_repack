@@ -1108,6 +1108,7 @@ on_before_exec(pgutConn *conn)
 		return;	/* forbid cancel during cleanup */
 
 #ifdef WIN32
+	init_cancel_handler();
 	EnterCriticalSection(&cancelConnLock);
 #endif
 
@@ -1141,6 +1142,7 @@ on_after_exec(pgutConn *conn)
 		return;	/* forbid cancel during cleanup */
 
 #ifdef WIN32
+	init_cancel_handler();
 	EnterCriticalSection(&cancelConnLock);
 #endif
 
